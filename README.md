@@ -3,7 +3,7 @@ A Sudoku Solver
 EBNF
 
 Input:
-<input> ::= <puzzle> <eof>
+  <input> ::= <puzzle> <eof>
 
 <puzzle> ::= 81*<value> "\n"
 
