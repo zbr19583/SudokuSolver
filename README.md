@@ -1,6 +1,3 @@
-SudokuSolver
-============
-
 A Sudoku Solver 
 
 EBNF
