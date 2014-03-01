@@ -1,3 +1,11 @@
+Sudoku Solver
+
+Input EBNF:
+<input> ::= <puzzle> <eof>
+<puzzle> ::= 81*<value> "\n"
+<value> ::= "." | "1" | ... | "9"
+
+Output EBNF:
 <output> ::= <result> <eof>
 <result> ::= <error> | <nosolution> | <puzzle> <puzzle>*
 <error> ::= "ERROR: expected " <expected> " saw " <saw> "\n"
