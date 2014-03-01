@@ -4,7 +4,9 @@ EBNF
 
 Input:
 <input> ::= <puzzle> <eof>
+
 <puzzle> ::= 81*<value> "\n"
+
 <value> ::= "." | "1" | ... | "9"
 
 Outputs:
